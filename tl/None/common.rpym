@@ -466,8 +466,8 @@ translate None strings:
     new "Skip Mode"
 
     # renpy/common/00library.rpy:281
-    old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-    new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}. \n Halo © Microsoft Corporation. Operation Heavy Tide was created under Microsoft's \"Game Content Usage Rules\" using assets from Halo. It is not endorsed by Microsoft and does not reflect the views or opinions of Microsoft or anyone officially involved in producing or managing Halo. As such, it does not contribute to the official narrative of the fictional universe, if applicable. Please see https://www.xbox.com/en-US/developers/rules for more information."
+    new " This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}. \n Halo © Microsoft Corporation. Operation Heavy Tide was created under Microsoft's \"Game Content Usage Rules\" using assets from Halo. It is not endorsed by Microsoft and does not reflect the views or opinions of Microsoft or anyone officially involved in producing or managing Halo. As such, it does not contribute to the official narrative of the fictional universe, if applicable. Please see https://www.xbox.com/en-US/developers/rules for more information."
 
     # renpy/common/00preferences.rpy:233
     old "display"
