@@ -80,7 +80,33 @@ label start:
     alice "It's almost time for the brief! Did you get any sleep at all last night??"
     "Alice shrugged her head as she nudged me awake one last time."
     cal "Look, I was just getting a little extra for the road. No sweat."
-    alice "Alright Cal, "
+    alice "Alright Cal, whatever you say. Just, pay attention, will ya?"
+    "I give her a short smile and start to train my eyes on the main overhead display."
+    "There are symbols on the screen that indicate various UNSC and Covenant forces, including battle composition, strength, and location."
+    "I'm too tired to put together the full picture, so I wait until the commander enters the room."
+    # TODO: Need to add a scene with the commander in the room.
+    # Insert sound here of the bridge door opening and the commander entering the room
+    williams "Alright, look alive people. We've got a lot to catch up on."
+    "Oh brother, this is gonna be fun. Should I pay attention to this?"
+    # Insert choice here to listen to the commander or ignore it.
+    menu tutorial:
+        "Should I stay awake for the brief, or should I just take a nap?"
+        "Stay awake":
+            "Nah, I better stay awake. This is important."
+            williams "This mission is gonna be fast and simple."
+            williams "The enemy is on Felix Major below us, and they intend on eliminating all human life on the planet."
+            williams "We're not going to let that happen."
+            
+
+        "Doze off":
+            "I'm gonna doze off instead."
+            "I could use the extra sleep."
+            scene black
+            with fade
+            "..."
+    scene bg ship
+    williams "And with that people, we're done here. Do I have any questions?"
+
 
     #FIXME: Remember to remove this later
     "This is the end of the game"
